@@ -1,0 +1,39 @@
+<!--
+// 
+// index.html
+// 
+//     Copyright (C) CGSG of PML30. All rights reserved.
+//
+// Main client page.
+//
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="./index.js"></script>
+    <style> 
+      @import url("./styles.css");
+    </style>
+    <link rel="shortcut icon" href="icon.png">
+  </head>
+  <body>
+    <div >
+      <h2>IP5 chat</h2>
+      <input class="input_kisel" id="myName" placeholder="Your name">
+      <div id="users text" class="div_kisel">
+      </div>
+      <input class="input_kisel" id="myInput" onkeyup="inputKeyUp(event)" placeholder="Enter message">
+      <button id="myButton" class="button-36" onclick="onClickButton()"> 
+        Send
+      </button>
+      <br>
+      <input class="input_kisel" id="myImage" onkeyup="inputKeyUp1(event)" placeholder="Enter link/name of image">
+      <button id="myButton1" class="button-36" onclick="onClickButton1()">
+        Send
+      </button>
+    </div>
+  </body>
+</html>
+
+<!-- END OF 'index.html' FILE -->
